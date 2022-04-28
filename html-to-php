@@ -1,0 +1,525 @@
+“<?php phpinfo(); ?>”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .list-custom {
+            padding: 0.3rem 1rem !important;
+        }
+
+        .color-tables {
+            height: 634px;
+        }
+
+        @media (max-width: 992px) {
+            .logo-img {
+                width: 210px;
+                height: 50px;
+            }
+
+            .header-inner-container {
+                height: 68px;
+            }
+
+        }
+
+        @media (min-width: 992px) {
+
+            .logo-img {
+                width: 310px !important;
+                height: 56px !important;
+            }
+
+            .header-inner-container {
+                height: 100px;
+            }
+        }
+
+        .control-ad {
+            display: none;
+        }
+
+        .control-body {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .ad-sec {
+            max-width: 160px;
+        }
+
+        @media (min-width: 1481px) {
+            .control-body {
+                flex: 0 0 86.666667%;
+                max-width: 86.666667%;
+            }
+
+            .control-ad {
+                flex: 0 0 13.333333%;
+                max-width: 13.333333%;
+            }
+        }
+
+        @media (min-width: 1280px) {
+
+            .control-body {
+                flex: 0 0 83.666667%;
+                max-width: 83.666667%;
+                padding-right: 0px;
+            }
+
+            .control-ad {
+                flex: 0 0 16.333333%;
+                max-width: 16.333333%;
+                display: block;
+                min-height: 600px;
+            }
+
+        }
+    </style>
+
+<script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MS5GMD3');
+    </script>
+
+<script async src="https://cdn.fuseplatform.net/publift/tags/2/2689/fuse.js"></script>
+</head>
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MS5GMD3" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class="container-fluid">
+<div class="row header-inner-container bg-light">
+<div class="logo-img col-12 col-md-4 col-lg-4  my-auto">
+<a href="https://url-decode.com"><img class="logo-img" alt="URL-Decode" src="https://url-decode.com/img/Logo.svg"></a>
+</div>
+<div class="google_ad d-none d-lg-block px-0 flex-row-reverse col-lg-8 ">
+</div>
+<div class="google_ad d-none d-md-block d-lg-none px-0 flex-row-reverse col-md-8 my-auto">
+</div>
+</div>
+<div class="row bg-dark">
+<div class="col-lg-12 px-3 px-lg-0">
+<nav class="navbar navbar-expand-lg navbar-dark menu-nav py-0 px-0 px-md-2">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav menu-nav-list mr-auto w-100">
+<li class="nav-item menu-nav-list-item ">
+<a class="nav-link" href="https://url-decode.com">Home</a>
+</li>
+ <li class="nav-item menu-nav-list-item ">
+<a class="nav-link" href="https://url-decode.com/cat">All Tools</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row bg-light border-bottom-secondary">
+<div class="col-lg-10 control-body">
+<div class="t-sec">
+<div class="row">
+<div class="col-12">
+<h1 class="r-heading">HTML to PHP</h1>
+</div>
+</div>
+<div class="row">
+<div class="col-12">
+</div>
+</div>
+
+<div class="form-group">
+<textarea name="text" id="input-text" class="form-control d-block"></textarea>
+</div>
+<div class="row">
+<div class="col-12">
+<div id="convert_btn" onclick="convertToPHP();record_activity('tool_used', 'HTML to PHP','Convert Button Clicked'); " class="btn btn-dark col-12 col-sm-3 col-md-2 mb-3 mb-sm-1">Convert</div>
+<div class="btn btn-dark col-12 col-sm-3 col-md-2 mb-3 mb-sm-1" data-toggle="modal" data-target="#loadFromUrl" onclick="record_activity('tool_used', 'HTML to PHP','Load From URL Button Clicked'); ">
+Load From Url</div>
+<div class="btn btn-dark btn-file text-btn-file col-12 col-sm-3 col-md-2 mb-3 mb-sm-1">
+<div class="form-group" style="margin-bottom: 0px !important;">
+<label for="files" class="pointer m-0 d-block">Browse… </label>
+<input class="form-control-file" type="file" id="files">
+</div>
+</div>
+<div onclick="loadSampledata();record_activity('tool_used', 'HTML to PHP','Load Sample Button Clicked'); " class="btn btn-dark mb-3 mb-sm-1 col-12 col-sm-3 col-md-2">Load Sample Data</div>
+</div>
+</div>
+<div class="h3">
+Result
+<span id="copy_result" class="pointer" data-clipboard-target="#result">
+<i class="icon icon-copy icon-dark icon-md" aria-hidden="true"></i>
+</span>
+</div>
+<div class="form-group">
+<textarea name="text" id="result" class="form-control d-block"></textarea>
+</div>
+<div class="row">
+<div class="col-12">
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-9">
+<div class="description">
+<h2>HTML to PHP Converter</h2>
+<div>
+<p>Online HTML to PHP Converter is a handy tool for quick conversion.<br />
+It parser and transformation utility to convert HTML so it can be easily used in PHP file.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3">
+<div class="row">
+<div class="col-lg-12 mb-2 pt-lg-2">
+<div class="row mt-2">
+<div class="col-sm-12 clearfix">
+<h5 class="ml-1">Related Tools</h5>
+</div>
+<div class="col-12 clearfix related_tools_links"><ul class="list-group d-block"><li class="list-group-item list-custom"><a href=https://url-decode.com/tool/html-encode>HTML Encode</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/html-decode>HTML Decode</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/url-encode>URL Encode</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/url-decode>URL Decode</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/base64-decode>Base64 decode</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/base64-encode>Base64 Encode</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/js-validator>JavaScript validator</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/minifyhtml>Minify HTML</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/javascript-beautifier>JavaScript Beautifier</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/html-beautify>HTML beautify</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/css-beautifier>CSS Beautifier</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/css-minifier>CSS Minifier</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/json-validator>JSON Validator</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/code-compare>Code Compare</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/json-diff>JSON Diff</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/sql-to-html-converter>SQL to HTML Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/sql-beautifier>SQL Beautifier</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/unix-time-converter>Unix Time Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/add-nofollow-to-link>Add Nofollow To Link</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/url-parser>URL Parser</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/web-hosting-bandwidth-calculator>Web Hosting Bandwidth Calculator</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/htaccess-secure-directory>Htaccess Secure Directory</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/create-array-js>Create Array JS</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/un-google-link>Un-Google Link</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/json-escape-unescape>JSON Escape/Unescape</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/javascript-escape-unescape>Javascript Escape/Unescape</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/csharp-escape-unescape>C# Escape/Unescape</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/java-escape-unescape>Java Escape/Unescape</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/csv-escape-unescape>CSV Escape/Unescape</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/sql-escape-unescape>SQL Escape/Unescape</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/xml-escape-unescape>XML Escape/Unescape</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/guid-generator>GUID Generator</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/view-html-source-code>View HTML Source Code</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/email-obfuscation>Email Obfuscation</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/broken-link-checker>Broken Link Checker</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/html-entities-escape>HTML Entities Escape</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/actionscript>Actionscript Beautify & Minify</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/verify-email>Verify Email</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/tableizer>Tableizer</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/xml-to-json-converter>XML to JSON</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/json-to-java-converter>JSON to JAVA</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/json-to-xml-converter>JSON to XML</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/csslint>CSS Lint</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/sql-to-json>SQL to JSON</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/xml-to-java>XML to JAVA</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/json-to-yaml>JSON to YAML</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/sql-to-yaml>SQL to YAML</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/sql-to-xml>SQL to XML</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/xml-to-html>XML to HTML</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/xml-viewer>XML viewer</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/disavow-file-generator>Disavow File Generator</a></li>
+</ul></div> </div>
+</div>
+</div>
+</div>
+</div></div>
+<div class="col-lg-2 control-ad pt-3 pl-0 pl-xl-2">
+<div class="ad-sec sticky-top mx-auto">
+</div>
+</div>
+
+<div class="modal" id="loadFromUrl">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<div class="modal-header">
+<h4 class="modal-title">Enter URL</h4>
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+</div>
+
+<div class="modal-body">
+<input class="form-control" type="text" placeholder="Enter URL" id="url">
+</div>
+
+<div class="modal-footer">
+<button type="button" class="btn btn-danger" id="loadurl" onclick="loaddata();">Load Data</button>
+<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+<script>
+    var ajax_uri = "https://url-decode.com/tools_files/html-to-php/html_to_php_ajax.php";
+    var t_n = "HTML to PHP";
+    var sample_data = `<!DOCTYPE html>
+<html>
+<head>
+<style>body{background-color:#d0e4fe;}h1{color:orange;text-align:center;}p{font-family:"Times New Roman";font-size:20px;}</style>
+</head>
+<body>
+<h1>CSS example!</h1>
+<p>This is a paragraph.</p>
+<table>
+<tr>
+<td>100</td>
+<td>200</td>
+<td>300</td>
+</tr>
+</table>
+<hr>
+<h3>3 Rows and 3 Columns:</h3>
+<table>
+<tr>
+<td>100</td>
+<td>200</td>
+<td>300</td>
+</tr>
+<tr>
+<td>400</td>
+<td>500</td>
+<td>600</td>
+</tr>
+<tr>
+<td>700</td>
+<td>800</td>
+<td>900</td>
+</tr>
+</table>
+</body>
+</html>`;
+</script>
+</div>
+<footer class="py-3 mt-1">
+<div class="row">
+<div class="col-lg-12">
+<div class="row">
+<div class="col-lg-1 visible-lg clearfix"></div>
+<div class="col-sm-12 clearfix">
+<h5>Other Tools (<a class="lc" href="https://url-decode.com/cat">See All Tools</a>)
+</h5>
+</div>
+<div class="col-12 clearfix footer_links"><ul class="list-group d-block"><li class="list-group-item list-custom"><a href=https://url-decode.com/tool/build-string>Build String</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/hex-to-rgb-color-converter>HEX to RGB</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/rgb-to-hex-color-converter>RGB to HEX</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/weight-converter>Weight Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/length-converter>Length Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/volume-converter>Volume Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/reverse-string>Reverse String</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/random-word-generator>Random Word Generator</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/password-generator>Password Generator</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/word-counter>Word Counter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/remove-lines-containing>Remove Lines Containing</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/remove-line-breaks>Remove Line Breaks</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/remove-extra-spaces>Remove Extra Spaces</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/remove-empty-lines>Remove Empty Lines</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/remove-duplicate-lines>Remove Duplicate Lines</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/binary-to-string>Binary to Text</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/string-to-binary>Text to Binary</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/hex-to-string>Hex to String</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/string-to-hex>String to Hex</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/jpg-to-png-converter>JPG to PNG Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/ip-to-hostname>IP to Hostname</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/hostname-to-ip>Hostname To IP</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/nameserver-lookup>Nameserver Lookup</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/mx-lookup>MX Lookup</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/date-calculator>Date Calculator</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/time-converter>Time Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/acceleration-converter>Acceleration Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/area-converter>Area Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/density-mass-capacity-converter>Density & Mass Capacity Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/digital-storage-converter>Digital Storage Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/electricity-converter>Electricity Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/energy-converter>Energy Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/force-converter>Force Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/light-converter>Light Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/mass-converter>Mass Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/mass-flow-converter>Mass Flow Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/power-converter>Power Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/pressure-stress-converter>Pressure & Stress Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/torque-converter>Torque Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/velocity-and-speed-converte>Velocity & Speed Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/viscosity-converter>Viscosity Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/volume-and-capacity-converte>Volume & Capacity Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/temperature-converter>Temperature converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/force-length-converter>Force / length converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/electric-current-converter>Electric Current Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/astronomical-converter>Astronomical Conversion</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/angle-converter>Angle Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/excel-to-html-converter>Excel to HTML</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/html-to-csv-converter>HTML to CSV Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/cmyk-to-hex>CMYK to HEX</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/cmyk-to-rgb>CMYK to RGB</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/cmyk-to-hsv>CMYK to HSV</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/hsv-to-hex>HSV to HEX</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/hex-to-hsv>HEX to HSV</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/hsv-to-rgb>HSV to RGB</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/hsv-to-cmyk>HSV to CMYK</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/hex-to-cmyk>HEX to CMYK</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/rgb-to-hex>RGB to HEX</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/rgb-to-hsv>RGB to HSV</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/rgb-to-cmyk>RGB to CMYK</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/hex-to-pantone>HEX to Pantone</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/rgb-to-pantone>RGB to Pantone</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/hsv-to-pantone>HSV to Pantone</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/cmyk-to-pantone>CMYK to Pantone</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/csv-to-multi-line>CSV to Multi Line</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/csv-to-xml-json>CSV to XML JSON</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/convert-csv-to-json>CSV to JSON</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/csv-to-tsv>CSV to TSV</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/csv-to-html>CSV to HTML</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/csv-to-xml>CSV to XML</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/json-to-csv>JSON to CSV</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/json-to-tsv>JSON to TSV</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/xml-to-csv>XML to CSV</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/csv-to-sql>CSV to SQL</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/sql-to-csv>SQL to CSV</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/csv-to-excel>CSV to Excel</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/random-letter-generator>Random Letter Generator</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/shuffle-letter>Shuffle Letter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/upside-down-text>Upside Down Text</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/bubble-ball-text>Bubble Ball Text</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/zalgo-text>Zalgo Text</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/numbers-to-words-converter>Numbers to Words Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/morse-code-translator>Morse Code Translator</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/octal-to-decimal>Octal to Decimal</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/octal-to-binary>Octal to Binary</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/octal-to-hex>Octal to Hex</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/bytes-bits-converter>Bytes/bits Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/fuel-consumption>Fuel Consumption</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/frequency-converter>Frequency Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/html-to-tsv-converter>HTML to TSV</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/xml-to-tsv>XML to TSV</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/case-converter>Case Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/decimal-to-binary>Decimal to Binary</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/decimal-to-hex>Decimal to Hex</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/decimal-to-octal>Decimal to Octal</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/binary-to-decimal>Binary to Decimal</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/binary-to-hex>Binary to Hex</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/binary-to-octal>Binary to Octal</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/hex-to-decimal>Hex to Decimal</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/hex-to-binary>Hex to Binary</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/hexadecimal-to-octal>Hexadecimal to Octal</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/number-system-converter>Number System Converter</a></li>
+<li class="list-group-item list-custom"><a href=https://url-decode.com/tool/image-resize>Image Resize</a></li>
+</ul></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-12">
+<h5>Links</h5>
+</div>
+<div class="col-12 footer_links">
+<ul class="mb-0">
+<li class="pb-0">
+<a rel="nofollow" href="https://docs.google.com/forms/d/e/1FAIpQLSeFirDweybbOFhbwUvcfUfya9z8VRnbWwASCkPjUTmIV3TNQg/viewform">Contact Us</a>
+</li>
+<li class="pb-0 mt-2">
+<a href="https://url-decode.com/privacy">Privacy Policy</a>
+</li>
+</ul>
+</div>
+</div>
+<div>
+<div aria-live="polite" aria-atomic="true" style="left: auto;" class="fixed-bottom col-6 col-sm-3 col-md-3 col-lg-2" id="toasts_container"></div>
+</div>
+</footer>
+
+
+<link href="https://url-decode.com/css/icons.css?v=1.2" rel="stylesheet" />
+<script src="https://url-decode.com/vendor/components/jquery/jquery.min.js"></script>
+<script src="https://url-decode.com/vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://url-decode.com/tools_files/html-to-php/html-to-php.js"> </script>
+<script src="https://url-decode.com/helpers/clipboard.js/dist/clipboard.js"> </script>
+<script src="https://url-decode.com/js/main.js"></script>
+<script>
+    function record_activity(category, action, label) {
+        try {
+            dataLayer.push({
+                'gaEventLabel': label,
+                'gaEventAction': action,
+                'gaEventCategory': category,
+                'event': 'gaTriggerEvent'
+            });
+        } catch (err) {}
+    }
+</script>
+<span style="display:none;" id="chk_hst_160349758325_3027856"></span>
+</body>
+</html>
